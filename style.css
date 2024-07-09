@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    font-family: arya, calibri;
+  }
+
+  body {
+    background: #f7dcdc;
+  }
+
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 2rem;
+  }
+
+  .tab {
+    display: flex;
+    background-color: #fff;
+    flex-wrap: wrap;
+    overflow: hidden;
+  }
+
+  .tablinks {
+    background-color: #fff;
+    border: none;
+    padding: 0.4rem 1rem;
+    color: blueviolet;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+
+  .tabcontent {
+    background: #fff;
+    max-width: 600px;
+    display: none;
+    padding: 6px 12px;
+    line-height: 21px;
+  }
+
+  .tabcontent h2 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1rem;
+
+  }
+
+  .tabcontent p {
+
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+    color: red;
+
+  }
+
+
+  .active {
+    background-color: purple;
+    color: white;
+    transition: all 0.5s ease;
+  }
