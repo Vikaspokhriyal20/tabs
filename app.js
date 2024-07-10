@@ -22,3 +22,5 @@ for (var i = 0; i < tabButtons.length; i++) {
 }
 
 document.querySelector(".tablinks").click();
+
+
