@@ -53,11 +53,9 @@
 
     letter-spacing: 1px;
     font-size: 0.9rem;
-    color: red;
-
+    color: purple;
   }
 
-
   .active {
-    background-color:plum;
+    background-color:blueviolet;
   }
